@@ -1,0 +1,160 @@
+body{
+	margin:0px;
+	padding: 0px;
+
+	font-family: 'Merriweather', serif;
+	background:#fca2cc;
+	opacity: 0.8;
+}
+.spa_center .header{
+	width: 100%;
+	height: 60px;
+	background:black;
+	opacity: 0.6;
+
+	position: fixed;
+	box-shadow: 2px 1px grey;
+
+	
+}
+.header a{
+	text-align: center;
+	text-decoration: none;
+	float: left;
+	margin:10px -200px 0px 300px;
+	color: red;
+	font-style: bold;
+
+}
+.header a input[type="submit"]{
+	width: 90px;
+	background:red;
+	padding: 5px;
+	color: white;
+	letter-spacing: 2px;
+}
+.header a:hover{
+	background:blue;
+	color: white;
+	p
+}
+
+
+
+
+p,h2
+{
+	text-align: center;
+}
+/*utility classes*//*2ns section m image m hai*/
+.img-responsive{
+	max-width: 100%;
+}
+.spa_center{
+	background: url(girl-1807556_1280.jpg) no-repeat;
+	-webkit-background-size:cover;
+	background-size: cover;
+height: 100vh;	
+
+	position: relative;
+}
+.spa_women{
+	color: 	#ffffff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+
+}
+.spa_women h1{
+	font-size: 2rem;
+	text-align: center;
+	text-shadow: 2px 1px grey;
+	color: green;
+	margin-top: -150px;	
+
+}
+.spa_women span{
+	color:purple;
+	text-shadow:1px 1px grey;
+}
+.spa_women p{
+	text-shadow: 1px 1px grey;
+	color:brown;
+
+}
+.spa_women span{
+	margin-left: 4rem;
+	display: inline-block;
+	margin-bottom: .5rem;
+}
+.catalog_view{
+	text-align: center;
+}
+.catalog_view  input[type="text"]{
+
+	display: block;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 2rem;
+	padding: .3rem;
+	border: none;
+	outline: none;
+	opacity: 0.5;
+	border:1px solid green;
+
+
+}
+.catalog_view button{
+	width: 40%;
+	text-align: center;
+	background-color: #bd4871;
+	color: white;
+	padding: .6rem;
+    margin: 1rem auto 0rem;
+	border:none;
+	border-radius: .3rem;
+	opacity: 0.8;
+	box-shadow: 2px 1px grey;
+
+}
+
+/*spa section*/
+.spa{
+	width: 90%;
+	margin-top: .3rem;/*diya to section 1&2 m gap hua*/
+	margin-left: auto;
+	margin-right:auto;
+
+
+	
+	
+}
+
+.types_of_spa{
+	float: left;
+	width: 32.33%;
+	margin-left: .5rem;
+
+
+}
+.types_of_spa h2{
+	color:purple;
+}
+.types_of_spa p{
+	color: white;
+}
+.types_of_spa:first-of-type{
+	margin-left: 0;
+}
+
+
+
+@media screen and (max-width:700px)/*isko karney p 
+responsive hoga.chota krney p nichey upar ho jayega*/{
+	.types_of_spa{
+		width: 100%;
+		float: none;
+	}
+}

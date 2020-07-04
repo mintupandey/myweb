@@ -1,0 +1,106 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	letter-spacing: 1px;
+	background: url(nature.jpg);
+	background-size: cover;
+
+}
+
+.Login
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 340px;
+	height: 400px;
+	padding: 80px 40px;
+	box-sizing: border-box;
+	background: rgba(0,0,0,8);
+}
+
+.login:before
+{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 50%;
+	height: 100;
+	background: rgba(255,255,255,.1);
+	pointer-events: none;
+
+}
+.mintu
+{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: calc(-100px/2);
+	left: calc(50% -50px);
+
+}
+
+h2
+{
+	margin: 0;
+	padding: 0 0 20px;
+
+	color: #efed40;
+	text-align: center;
+
+}
+.Login p
+{
+	margin: 0;
+	font-weight:bold; 
+	color: #afff;	
+}
+.login input
+{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.Login input[type="text"],
+.Login input[type="password"]
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	color: #fff;
+	font-size: 16px;
+	height: 40px;
+}
+.Login input[type="submit"]
+{
+	border: none;
+	outline: none;
+	color: #262626;
+	background: #efed40;
+	cursor: pointer;
+	border-radius: 20px;
+	height: 40px;
+	font-size: 16px;
+
+}
+.Login input[type="submit"]:hover
+{
+	background: #efed89;
+	color: #405628;
+}
+.Login a
+{
+	color: #ffff;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+}
+.login a:hover
+{
+	color: #efed40;
+}
